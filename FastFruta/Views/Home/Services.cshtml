@@ -8,22 +8,26 @@
 <section class="w3l-about-breadcrumb position-relative text-center">
     <div class="breadcrumb-bg breadcrumb-bg-about py-sm-5 py-4">
         <div class="container py-lg-5 py-3">
-            <h2 class="title">Services</h2>
+            <h2 class="title">Comprar</h2>
             <ul class="breadcrumbs-custom-path mt-2">
                 <li><a href="#url">Home</a></li>
-                <li class="active"><span class="fa fa-angle-double-right mx-2" aria-hidden="true"></span> Services </li>
+                <li class="active"><span class="fa fa-angle-double-right mx-2" aria-hidden="true"></span> Comprar </li>
             </ul>
         </div>
     </div>
 </section>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <!-- //about breadcrumb -->
 <!--/services-sec-->
 <div class="w3-services py-5">
     <div class="container py-lg-4">
+        </button>
         <div class="title-content text-left mb-lg-5 mb-4">
-            <h6 class="sub-title">Our Services</h6>
-            <h3 class="hny-title">Great Services</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit hic odio.</p>
+            <h3 class="hny-title">Vendedores Cadastrados</h3>
+            <h6 class="sub-title">Catalogo</h6>
 
         </div>
         <div class="row w3-services-grids">
@@ -32,14 +36,37 @@
                     <a href="blog-single.html"><img src="~/images/ab1.jpg" class="img-fuild" alt=""></a>
                     <a href="#" class="cause-title-wrap">
                         <h4 class="cause-title">
-                            Electrical system
+                            Banquinha do Zé
                         </h4>
                     </a>
                     <p class="card-text mb-0">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit hic odio.
+                        Cestas de legumes e frutas com  legumes e frutas!
                     </p>
 
-                    <a href="services.html" class="btn btn-style btn-primary mt-4">Read More</a>
+                    <br />
+                    <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#Modal2">Preços</button>
+                </div>
+            </div>
+            <!-- Modal2 -->
+            <div class="modal fade" id="Modal2" role="dialog">
+                <div class="modal-dialog">
+
+                    <!-- Modal content-->
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title">Banquinha do Zé</h4>
+                        </div>
+                        <div class="modal-body">
+                            <p>Combo com 5 frutas     R$ 15.00   <button type="submit" class="btn btn-primary">Comprar</button></p>
+                            <p>Combo com 10 frutas    R$ 30,00   <button type="submit" class="btn btn-primary">Comprar</button></p>
+                            <p>Combo com 15 frutas    R$ 40,00  <button type="submit" class="btn btn-primary">Comprar</button></p>
+                            <p>Combo com 30 frutas    R$ 60,00  <button type="submit" class="btn btn-primary">Comprar</button></p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-primary" data-dismiss="modal">Fechar</button>
+                        </div>
+                    </div>
+
                 </div>
             </div>
             <div class="col-lg-4 col-md-6 causes-grid">
@@ -47,14 +74,36 @@
                     <a href="blog-single.html"><img src="~/images/ab2.jpg" class="img-fuild" alt=""></a>
                     <a href="#" class="cause-title-wrap">
                         <h4 class="cause-title">
-                            System service
+                            Sacolão do Virso
                         </h4>
                     </a>
                     <p class="card-text mb-0">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit hic odio.
+                        Cesta de legumes com legumes sortidas todo mês!
                     </p>
+                    <br />
+                    <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#Modal3">Preços</button>
+                </div>
+            </div>
+            <!-- Modal3 -->
+            <div class="modal fade" id="Modal3" role="dialog">
+                <div class="modal-dialog">
 
-                    <a href="services.html" class="btn btn-style btn-primary mt-4">Read More</a>
+                    <!-- Modal content-->
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title">Sacolão do Virso</h4>
+                        </div>
+                        <div class="modal-body">
+                            <p>Combo com 5 legumes     R$ 25.00   <button type="submit" class="btn btn-primary">Comprar</button></p>
+                            <p>Combo com 10 legumes    R$ 35,00   <button type="submit" class="btn btn-primary">Comprar</button></p>
+                            <p>Combo com 15 legumes    R$ 50,00  <button type="submit" class="btn btn-primary">Comprar</button></p>
+                            <p>Combo com 30 legumes    R$ 82,00  <button type="submit" class="btn btn-primary">Comprar</button></p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-primary" data-dismiss="modal">Fechar</button>
+                        </div>
+                    </div>
+
                 </div>
             </div>
             <div class="col-lg-4 col-md-6 causes-grid">
@@ -62,30 +111,75 @@
                     <a href="blog-single.html"><img src="~/images/ab3.jpg" class="img-fuild" alt=""></a>
                     <a href="#" class="cause-title-wrap">
                         <h4 class="cause-title">
-                            Tire and wheel
+                            Quitanda da Terezinha
                         </h4>
                     </a>
                     <p class="card-text mb-0">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit hic odio.
+                        Melhores legumes do oesta paulista!
                     </p>
-
-                    <a href="services.html" class="btn btn-style btn-primary mt-4">Read More</a>
+                    <br />
+                    <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#Modal4">Preços</button>
                 </div>
             </div>
+            <!-- Modal4 -->
+            <div class="modal fade" id="Modal4" role="dialog">
+                <div class="modal-dialog">
+
+                    <!-- Modal content-->
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title">Quitanda da Terezinha</h4>
+                        </div>
+                        <div class="modal-body">
+                            <p>Combo com 5 legumes    R$ 15.00   <button type="submit" class="btn btn-primary">Comprar</button></p>
+                            <p>Combo com 10 legumes   R$ 25,00   <button type="submit" class="btn btn-primary">Comprar</button></p>
+                            <p>Combo com 15 legumes   R$ 35,00  <button type="submit" class="btn btn-primary">Comprar</button></p>
+                            <p>Combo com 30 legumes  R$ 40,00  <button type="submit" class="btn btn-primary">Comprar</button></p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-primary" data-dismiss="modal">Fechar</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
             <div class="col-lg-4 col-md-6 causes-grid">
                 <div class="causes-grid-info">
                     <a href="blog-single.html"><img src="~/images/ab4.jpg" class="img-fuild" alt=""></a>
                     <a href="#" class="cause-title-wrap">
                         <h4 class="cause-title">
-                            Automotive filters
+                            Uvas do Toninho
                         </h4>
                     </a>
                     <p class="card-text mb-0">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit hic odio.
+                        Caixa de Uvas exóticas para você!!!
                     </p>
 
+                    <br />
+                    <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#Modal5">Preços</button>
+                </div>
+            </div>
+            <!-- Modal5 -->
+            <div class="modal fade" id="Modal5" role="dialog">
+                <div class="modal-dialog">
 
-                    <a href="services.html" class="btn btn-style btn-primary mt-4">Read More</a>
+                    <!-- Modal content-->
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title">Uvas do Toninho</h4>
+                        </div>
+                        <div class="modal-body">
+                            <p>Combo com 5 caixas    R$ 18.00   <button type="submit" class="btn btn-primary">Comprar</button></p>
+                            <p>Combo com 10 caixas   R$ 21,00   <button type="submit" class="btn btn-primary">Comprar</button></p>
+                            <p>Combo com 15 caixas   R$ 42,00  <button type="submit" class="btn btn-primary">Comprar</button></p>
+                            <p>Combo com 30 caixas  R$ 90,00  <button type="submit" class="btn btn-primary">Comprar</button></p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-primary" data-dismiss="modal">Fechar</button>
+                        </div>
+                    </div>
+
                 </div>
             </div>
             <div class="col-lg-4 col-md-6 causes-grid">
@@ -93,14 +187,37 @@
                     <a href="blog-single.html"><img src="~/images/ab5.jpg" class="img-fuild" alt=""></a>
                     <a href="#" class="cause-title-wrap">
                         <h4 class="cause-title">
-                            Engine diagnostics
+                            Cremilda frutas
                         </h4>
                     </a>
                     <p class="card-text mb-0">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit hic odio.
+                        Cesta de frutas com frutas sortidas todo mês!
                     </p>
+                    <br />
+                    <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#Modal6">Preços</button>
 
-                    <a href="services.html" class="btn btn-style btn-primary mt-4">Read More</a>
+                </div>
+            </div>
+            <!-- Modal6 -->
+            <div class="modal fade" id="Modal6" role="dialog">
+                <div class="modal-dialog">
+
+                    <!-- Modal content-->
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title">Cremilda Frutas </h4>
+                        </div>
+                        <div class="modal-body">
+                            <p>Combo com 5 frutas     R$ 15.00   <button type="submit" class="btn btn-primary">Comprar</button></p>
+                            <p>Combo com 10 frutas    R$ 30,00   <button type="submit" class="btn btn-primary">Comprar</button></p>
+                            <p>Combo com 15 frutas    R$ 40,00  <button type="submit" class="btn btn-primary">Comprar</button></p>
+                            <p>Combo com 30 frutas    R$ 60,00  <button type="submit" class="btn btn-primary">Comprar</button></p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-primary" data-dismiss="modal">Fechar</button>
+                        </div>
+                    </div>
+
                 </div>
             </div>
             <div class="col-lg-4 col-md-6 causes-grid">
@@ -108,19 +225,63 @@
                     <a href="blog-single.html"><img src="~/images/ab6.jpg" class="img-fuild" alt=""></a>
                     <a href="#" class="cause-title-wrap">
                         <h4 class="cause-title">
-                            Drivability problems
+                            Tomates do pedrão
                         </h4>
                     </a>
                     <p class="card-text mb-0">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit hic odio.
+                        Melhores tomates do oesta paulista!
                     </p>
+                    <br />
+                    <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#Modal7">Preços</button>
 
-                    <a href="services.html" class="btn btn-style btn-primary mt-4">Read More</a>
+                </div>
+            </div>
+            <!-- Modal7 -->
+            <div class="modal fade" id="Modal7" role="dialog">
+                <div class="modal-dialog">
+
+                    <!-- Modal content-->
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title">Tomates do pedrâo</h4>
+                        </div>
+                        <div class="modal-body">
+                            <p>5 caixas de tomate   R$ 45.00   <button type="submit" class="btn btn-primary">Comprar</button></p>
+                            <p>10 caixas de tomate   R$ 80,00   <button type="submit" class="btn btn-primary">Comprar</button></p>
+                            <p>15 caixas de tomate   R$ 120,00  <button type="submit" class="btn btn-primary">Comprar</button></p>
+                            <p>30 caixas de tomate    R$ 240,00  <button type="submit" class="btn btn-primary">Comprar</button></p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-primary" data-dismiss="modal">Fechar</button>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </div>
+        </div>
+</div>
+<!-- Modal1 -->
+<div class="modal fade" id="myModal1" role="dialog">
+    <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Cabeçalho Modal</h4>
+            </div>
+            <div class="modal-body">
+                <p>Macoratti .net - Quase tudo para .NET</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-dismiss="modal">Fechar</button>
+            </div>
+        </div>
+
     </div>
 </div>
+
 <!--//services-sec-->
 <!-- Template JavaScript -->
 <script src="~/js/jquery-3.3.1.min.js"></script>
